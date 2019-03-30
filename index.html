@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+	</script>
+	<title>Keyblade Wielder Form</title>
+</head>
+<body>
+	<h1 id="title">Keyblade Wielder Form</h1>
+	<div class="container">
+		<p id="description">-Let us know how we can improve your quest to slay Heartless!-</p>
+		<form id="survey-form" name="survey-form">
+			<div id="name-field">
+				<label for="name" id="name-label">* Name:</label> <input id="name" name="name" placeholder=
+				"Enter your name" required="" type="text">
+			</div><br>
+			<div id="email-field">
+				<label for="email" id="email-label">* Wielder ID (Email):</label> <input id="email" name=
+				"email" placeholder="Enter your Email" required="" type="email">
+			</div><br>
+			<div id="age">
+				<label for="age" id="number-label">* Age:</label> <input id="number" max="125" min="18" name=
+				"age" placeholder="Age" required="" type="number">
+			</div><br>
+			<div id="radio-buttons">
+				<label for="radiolist" id="radiolist-label">* Gender:</label>
+				<div id="radiolist" style="text-align: left; padding: 4px 0px 0px 0px;">
+					<p><label for="Female"><input id="Female" name="radio-buttons" type="radio" value=
+					"Female">Female</label></p>
+					<p><label for="Male"><input id="Male" name="radio-buttons" type="radio" value=
+					"Male">Male</label></p>
+					<p><label for="Prefer not to say"><input id="Prefer not to say" name="radio-buttons" type=
+					"radio" value="Prefer not to say">Prefer not to say</label></p>
+				</div>
+			</div>
+			<div id="dropdown">
+				<label for="role" id="role-label">Which best describes your current role?</label> <select id=
+				"role">
+					<option disabled selected>
+						Select an option
+					</option>
+					<option>
+						Tank
+					</option>
+					<option>
+						Strength
+					</option>
+					<option>
+						Magic
+					</option>
+					<option>
+						Hybrid
+					</option>
+					<option>
+						Other
+					</option>
+				</select>
+			</div><br>
+			<div id="textarea" style="margin-bottom: 32px">
+				<label for="textarea" id="textarea-label">If you choose Other, please specify:</label> 
+				<textarea cols="50" name="textarea" placeholder="Enter your comment here..." rows=
+				"4"></textarea>
+			</div>
+			<div id="dropdown">
+				<label for="role" id="role-label">What do you like most your adventures?:</label> <select id=
+				"role">
+					<option disabled selected>
+						Select an option
+					</option>
+					<option>
+						New companions
+					</option>
+					<option>
+						Synthesis Items
+					</option>
+					<option>
+						Exploring
+					</option>
+					<option>
+						Grind
+					</option>
+					<option>
+						Other
+					</option>
+				</select>
+			</div>
+			<div id="textarea" style="margin-bottom: 32px">
+				<label for="textarea" id="textarea-label">If you choose Other, please specify:</label> 
+				<textarea cols="50" name="textarea" placeholder="Enter your comment here..." rows=
+				"4"></textarea>
+			</div>
+			<div id="checkboxes">
+				<label for="checklist" id="checklist-label">Things that should be improved in the future for us
+				advernturers<br>
+				(Check all that apply):</label>
+				<div id="checklist" style="text-align: left; padding: 4px 0px 0px 0px;">
+					<p><label for="Party"><input id="Party" name="checkboxes" type="checkbox" value=
+					"Parties">Party</label></p>
+					<p><label for="Support items"><input id="Support items" name="checkboxes" type="checkbox"
+					value="Support items">Support items</label></p>
+					<p><label for="Keychains"><input id="Keychains" name="checkboxes" type="checkbox" value=
+					"Keychains">Keychains</label></p>
+					<p><label for="Armor/Accesories"><input id="Armor/Accesories" name="checkboxes" type="checkbox" value=
+					"Armor/Accesories">Armor/Accesories</label></p>
+					<p><label for="Heartless Info"><input id="Heartless Info" type="checkbox" value=
+					"Heartless Info">Monster Info</label></p>
+					<p><label for="Area Info"><input id="Area Info" name="checkboxes" type="checkbox" value=
+					"Area Info">Area Info</label></p>
+					<p><label for="Communication"><input id="Communication" name="checkboxes" type="checkbox"
+					value="Communication">Communication</label></p>
+					<p><label for="Skills"><input id="Skills" name="checkboxes" type="checkbox" value=
+					"Skills">Skills</label></p>
+					<p><label for="Roles"><input id="Roles" name="checkboxes" type="checkbox" value=
+					"Roles">Roles</label></p>
+					<p><label for="Other"><input id="Other" name="checkboxes" type="checkbox" value=
+					"Other">Other</label></p>
+				</div>
+			</div>
+			<div id="textarea" style="margin-bottom: 32px">
+				<label for="textarea" id="textarea-label">If you choose Other, please specify:</label> 
+				<textarea cols="50" name="textarea" placeholder="Enter your comment here..." rows=
+				"4"></textarea>
+			</div>
+			<div id="textarea" style="margin-bottom: 32px">
+				<label for="textarea" id="textarea-label">Any Comments or Suggestions?</label> 
+				<textarea cols="50" name="textarea" placeholder="Enter your comment here..." rows=
+				"4"></textarea>
+			</div><button class="button" id="submit" type="submit">Submit</button>
+		</form
+>	</div>
+</body>
+</html>
